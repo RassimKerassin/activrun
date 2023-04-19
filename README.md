@@ -1,2 +1,18 @@
-# activrun
-This script is designed to automate the process of launching all activities listed in the AndroidManifest.xml file and checking which ones may be vulnerable. It is useful for developers and security researchers who want to quickly test all activities in their app and identify potential security risks.
+##ActivRun
+
+ActivRun is a tool for automatically launching all activities specified in an AndroidManifest.xml file and checking which ones may be vulnerable to security issues. With ActivRun, you can easily test your Android application and identify potential security risks.
+
+##Installation
+
+ActivRun requires adb to be installed on your system.
+To install ActivRun, simply download the activrun.sh script and place it in a directory of your choice.
+```
+git clone https://github.com/RassimKerassin/activrun.git
+cd activrun
+chmod +x activrun.sh
+```
+
+##Usage
+```
+./activrun.sh
+```
